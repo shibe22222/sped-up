@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/background_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/horror1"/>
+
+        <ImageView
+            android:id="@+id/background_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/horror2"/>
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="200dp"
+                android:src="@drawable/logonew">
+
+            </ImageView>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="35dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/mathlectures_card"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:elevation="96dp"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            app:cardCornerRadius="15dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:elevation="16dp">
+
+                                <ImageView
+                                    android:id="@+id/ImageView1"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_centerInParent="true"
+                                    android:elevation="15dp"
+                                    android:background="@drawable/mathnew" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/ImageView1"
+                                    android:layout_centerHorizontal="true"
+                                    android:fontFamily="@font/opendyslexicregular"
+                                    android:text="Math Lessons"
+                                    android:textColor="#000000"
+                                    android:textSize="13sp" />
+
+                            </RelativeLayout>
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/games_card"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:elevation="96dp"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            app:cardCornerRadius="15dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:elevation="16sp">
+
+                                <ImageView
+                                    android:id="@+id/ImageView2"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_centerInParent="true"
+                                    android:elevation="15dp"
+                                    android:background="@drawable/gamesnew" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/ImageView2"
+                                    android:layout_centerHorizontal="true"
+                                    android:fontFamily="@font/opendyslexicregular"
+                                    android:text="Educational Activities"
+                                    android:textColor="#000000"
+                                    android:textSize="13dp" />
+
+
+                            </RelativeLayout>
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/languagelectures_card"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight=".8"
+                            android:clickable="true"
+                            android:elevation="96dp"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            app:cardCornerRadius="15dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:elevation="16dp">
+
+                                <ImageView
+                                    android:id="@+id/ImageView3"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_centerInParent="true"
+                                    android:elevation="15dp"
+                                    android:background="@drawable/languagenew" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/ImageView3"
+                                    android:layout_centerHorizontal="true"
+                                    android:fontFamily="@font/opendyslexicregular"
+                                    android:text="Language Lessons"
+                                    android:textColor="#000000"
+                                    android:textSize="13sp" />
+
+                            </RelativeLayout>
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/dictionary_card"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight=".8"
+                            android:clickable="true"
+                            android:elevation="96dp"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            app:cardCornerRadius="15dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:elevation="16sp">
+
+                                <ImageView
+                                    android:id="@+id/ImageView4"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_centerInParent="true"
+                                    android:elevation="15dp"
+                                    android:background="@drawable/quiz" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/ImageView4"
+                                    android:layout_centerHorizontal="true"
+                                    android:fontFamily="@font/opendyslexicregular"
+                                    android:text="Further Lessons"
+                                    android:textColor="#000000"
+                                    android:textSize="13dp" />
+
+                            </RelativeLayout>
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/schools_card"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight=".8"
+                            android:clickable="true"
+                            android:elevation="96dp"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            app:cardCornerRadius="15dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:elevation="16dp">
+
+                                <ImageView
+                                    android:id="@+id/ImageView5"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_centerInParent="true"
+                                    android:elevation="15dp"
+                                    android:background="@drawable/schoolsnew" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/ImageView5"
+                                    android:layout_centerHorizontal="true"
+                                    android:fontFamily="@font/opendyslexicregular"
+                                    android:text="SPED Centers"
+                                    android:textColor="#000000"
+                                    android:textSize="13sp" />
+
+                            </RelativeLayout>
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/developers_card"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight=".8"
+                            android:clickable="true"
+                            android:elevation="96dp"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            app:cardCornerRadius="15dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:elevation="16sp">
+
+                                <ImageView
+                                    android:id="@+id/ImageView6"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_centerInParent="true"
+                                    android:elevation="15dp"
+                                    android:background="@drawable/developersnew" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/ImageView6"
+                                    android:layout_centerHorizontal="true"
+                                    android:fontFamily="@font/opendyslexicregular"
+                                    android:text="Information"
+                                    android:textColor="#000000"
+                                    android:textSize="13dp" />
+
+
+                            </RelativeLayout>
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

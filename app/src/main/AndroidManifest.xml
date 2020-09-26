@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.spedapp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SPEDUP"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/FullScreen"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ArGameObjects"></activity>
+        <activity android:name=".SchoolStaIsabel"></activity>
+        <activity android:name=".SchoolSanMiguel" />
+        <activity android:name=".SchoolObando" />
+        <activity android:name=".SchoolMarilao" />
+        <activity android:name=".SchoolMalolos" />
+        <activity android:name=".SchoolCalumpit" />
+        <activity android:name=".SchoolBaliuag" />
+        <activity android:name=".SchoolBalagtas" />
+
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
+
+        <activity android:name=".ArGame" />
+        <activity android:name=".PaintActivity" />
+        <activity android:name=".GamesColoring" />
+        <activity android:name=".OtherVideos" />
+        <activity android:name=".GamesColors" />
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LangFilAlphaQz"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MathBasicshapesVideo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LangFilAlphaJp"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LangFilAlphaAi"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LangSameDiff"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LangAlphabetJr"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LangAlphabetAz"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LangAlphabetAi"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LangColors"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LangAlphabetsongVideo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LangLeftrightVideo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LangSizeVideo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LangObjectsVideo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MathPrimaryVideo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MathSecondaryVideo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MathSecondaryColors"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MathAdvancedShapes"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MathSpatialAboveBelow"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MathDays"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MathNumbers"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MathSpatialInOut"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MathSpatialVideo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".OtherWashing"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".OtherOnOff"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".OtherMatching"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".OtherBodyParts"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".OtherAnimals"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".OtherFruits"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".OtherVegetables"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".OtherSmallesttoBiggest"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MemoryGame"
+            android:screenOrientation="landscape" />
+        <activity android:name=".PDFOpener" />
+        <activity android:name=".Games" />
+        <activity android:name=".Developers" />
+        <activity android:name=".Mathematics" />
+        <activity android:name=".Language" />
+        <activity android:name=".Schools" />
+    </application>
+
+</manifest>

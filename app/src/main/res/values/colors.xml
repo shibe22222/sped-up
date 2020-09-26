@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f39c12</color>
+    <color name="colorPrimaryDark">#3498db</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="graylight">#fafafa</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="white">#fff</color>
+    <color name="gris_light">#e1dfe1</color>
+    <color name="blue">#1e90ff</color>
+    <color name="red_light">#FF605C</color>
+    <color name="orange_light">#FFBD44</color>
+    <color name="green_light">#00CA4E</color>
+    <color name="gris_dark">#C0BFC0</color>
+    <color name="item_toolbar">#171616</color>
+    <color name="red">#FF0000</color>
+    <color name="mathlessonsstart">#74b9ff</color>
+    <color name="mathlessonsend">#0984e3</color>
+    <color name="languagelessonsstart">#f1c40f</color>
+    <color name="languagelessonsend">#f39c12</color>
+    <color name="gamesstart">#2ecc71</color>
+    <color name="gamesend">#27ae60</color>
+    <color name="furtherstart">#fd79a8</color>
+    <color name="furtherend">#e84393</color>
+    <color name="spedcentersstart">#81ecec</color>
+    <color name="spedcentersend">#00cec9</color>
+    <color name="infostart">#a29bfe</color>
+    <color name="infoend">#6c5ce7</color>
+
+    <array name="demo_colors">
+        <item>@color/colorAccent</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/gris_light</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/blue</item>
+        <item>@color/item_toolbar</item>
+        <item>@color/gris_dark</item>
+        <item>@color/orange_light</item>
+        <item>@color/red</item>
+    </array>
+</resources>
